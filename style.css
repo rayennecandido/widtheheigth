@@ -1,0 +1,61 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background: LightSteelBlue;
+  }
+  
+  h2{
+    font-size: 45px;
+    color: blue;
+    text-shadow: 1px 1px SteelBlue;
+  }
+  
+  ol{
+    width: 400px; /Vai diminuir ou aumentar a largura/
+    height: 90px; /Vai diminuir ou aumentar a altura/
+    border-radius: 20px; /Deixar o border arredondado/
+    text-align: center; /Alinha o conteúdo/
+    background: DarkTurquoise;
+    border: 1px solid DarkTurquoise;
+    box-shadow: 0px 1px DarkTurquoise;
+  }
+  
+  .sessao-map{
+    text-align: center;
+  }
+  
+  iframe{
+    width: 290px;
+    height: 290px;
+    border-radius: 300px;
+    border: 2px solid black;
+    transition: 1s all;
+  }
+  
+  iframe:hover{
+    box-shadow: 10px 10px red;
+  }
+  
+  form{
+    text-align: center;
+  }
+  
+  button{
+    width: 150px; /Vai diminuir ou aumentar a largura/
+    height: 70px; /Vai diminuir ou aumentar a altura/
+    border-radius: 150px; /Deixa a borda arredondada/
+    border: none; /border escolhemos a borda do conteúdo/
+    cursor: pointer; /O cursor muda o tipo do mouse/
+    background: SteelBlue;  /muda a cor de fundo/
+    color: white; /muda a cor da letra/
+    font-weight: bolder; /Deixa em negrito/
+    transition: 0.5s all;/tempo de animação/
+  }
+  
+  button:hover{
+    box-shadow: 0px 6px SkyBlue; /Sobreamento/
+  }
